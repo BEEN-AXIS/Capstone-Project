@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SocioNet - Capstone (Basic CSS)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo">SocioNet</div>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Search SocioNet" />
+        </div>
+
+        <div class="auth-buttons">
+          <a href="profile.html" class="auth-btn logout-btn">Profile</a>
+          <a href="login.html" class="auth-btn logout-btn">Logout</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="feed">
+        <div class="card create-post-box">
+          <img
+            src="https://placehold.co/40x40/e2e8f0/7f9cf5?text=User"
+            alt="User"
+            class="avatar"
+          />
+          <input
+            type="text"
+            placeholder="Create Post"
+            class="create-post-input"
+          />
+        </div>
+
+        <div class="card sort-tabs">
+          <button class="sort-btn active">Hot</button>
+          <button class="sort-btn">New</button>
+          <button class="sort-btn">Top</button>
+        </div>
+
+        <div class="card post">
+          <div class="vote-section">
+            <button class="vote-btn">&uarr;</button>
+            <span class="vote-count">1.2k</span>
+            <button class="vote-btn">&darr;</button>
+          </div>
+          <div class="post-content">
+            <div class="post-info">
+              <span class="community-name">s/SNW_Projects</span>
+              &bull;
+              <span>Posted by u/TushantSharma</span>
+              &bull;
+              <span>3 hours ago</span>
+            </div>
+            <h2 class="post-title">This is my Capstone Project for SNW!</h2>
+            <p class="post-body">
+              Got the brief from the college about the project. The theme is
+              "Social Media" and the reference is Reddit. This is my static
+              HTML/CSS build for Phase 1. What do you all think? For Phase 2,
+              I'll add JavaScript to make the voting and posting work.
+            </p>
+            <div class="post-actions">
+              <button>3 Awards</button>
+              <button>14 Comments</button>
+              <button>Share</button>
+              <button>Save</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card post">
+          <div class="vote-section">
+            <button class="vote-btn">&uarr;</button>
+            <span class="vote-count">472</span>
+            <button class="vote-btn">&darr;</button>
+          </div>
+          <div class="post-content">
+            <div class="post-info">
+              <span class="community-name">s/WebDev</span>
+              &bull;
+              <span>Posted by u/Sanjeevni_Mentor</span>
+              &bull;
+              <span>8 hours ago</span>
+            </div>
+            <h2 class="post-title">
+              A great resource for HTML/CSS fundamentals
+            </h2>
+            <img
+              src="https://cdn.prod.website-files.com/62e8d2ea218fb7676b6892a6/64956528607323070bb62108_NST%20Open%20Graph.webp"
+              alt="Placeholder image for post"
+              class="post-image"
+            />
+            <div class="post-actions">
+              <button>23 Comments</button>
+              <button>Share</button>
+              <button>Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="card sidebar-widget">
+          <div class="widget-header">
+            <h3>Capstone Project Details</h3>
+          </div>
+          <div class="widget-content">
+            <p><strong>Project:</strong> SocioNet (Social Media)</p>
+            <p><strong>Mentor:</strong> Sanjeevni Ma'am</p>
+            <p><strong>Subject:</strong> SNW</p>
+            <hr />
+            <p><strong>Phase 1:</strong> Static Site (HTML/CSS)</p>
+            <p><strong>Phase 2:</strong> Dynamic Site (JavaScript)</p>
+          </div>
+        </div>
+
+        <div class="card sidebar-widget">
+          <div class="widget-header">
+            <h3>Top Communities</h3>
+          </div>
+          <div class="widget-content">
+            <ul class="community-list">
+              <li>
+                <span class="community-rank">1</span>
+                <img
+                  src="https://placehold.co/32x32/3b82f6/ffffff?text=S"
+                  alt="Community"
+                  class="avatar-sm"
+                />
+                <span class="community-name">s/SNW_Projects</span>
+                <button class="join-btn">Join</button>
+              </li>
+              <li>
+                <span class="community-rank">2</span>
+                <img
+                  src="https://placehold.co/32x32/22c55e/ffffff?text=W"
+                  alt="Community"
+                  class="avatar-sm"
+                />
+                <span class="community-name">s/WebDev</span>
+                <button class="join-btn">Join</button>
+              </li>
+              <li>
+                <span class="community-rank">3</span>
+                <img
+                  src="https://placehold.co/32x32/8b5cf6/ffffff?text=A"
+                  alt="Community"
+                  class="avatar-sm"
+                />
+                <span class="community-name">s/Announcements</span>
+                <button class="join-btn">Join</button>
+              </li>
+            </ul>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <div class="card sidebar-widget footer-links">
+          <p>Tushant Sharma's Capstone Project © 2025</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
